@@ -14,7 +14,7 @@ var MovieSchema = new Schema({
         type: String,
         enum: ['Action', 'Adventure', 'Comedy', 'Drama', 'Fantasy', 'Horror', 'Mystery', 'Thriller'],
     },
-    //add validation to pass at least three actors
+    //add validation to pass at least three actornpm install s
     Actors: [
         {ActorName: {type: String, required: true}, CharacterName: {type: String, required: true}},
         {ActorName: {type: String, required: true}, CharacterName: {type: String, required: true}},
