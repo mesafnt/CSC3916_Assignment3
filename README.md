@@ -7,7 +7,7 @@ For this assignment you will create a Users collection to store users for your s
 You will also create Movies collection to store information about movies.  All endpoints will be protected with the JWT token received by a signin call. 
 
 ## Requirements
-Create a collection in MongoDB to hold information about movies
+Create a collection in MongoDB to hold information about movie
 - Each entry should contain the following
     - title (string, required, index)
     - releaseDate
