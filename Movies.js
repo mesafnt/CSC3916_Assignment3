@@ -9,7 +9,7 @@ mongoose.connect(process.env.DB);
 // Movie schema
 var MovieSchema = new Schema({
     Title: {type: String, required: true},
-    YearReleased: {type: String, required: true},
+    releaseDate: {type: String, required: true},
     genre: {
         type: String,
         enum: ['Action', 'Adventure', 'Comedy', 'Drama', 'Fantasy', 'Horror', 'Mystery', 'Thriller'],
