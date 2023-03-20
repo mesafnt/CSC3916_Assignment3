@@ -12,7 +12,7 @@ var MovieSchema = new Schema({
     year_released: {type: String, required: true},
     genre: {
         type: String,
-        enum: ['Action', 'Adventure', 'Comedy', 'Drama', 'Fantasy', 'Horror', 'Mystery', 'Thriller'],
+        enum: ['Action', 'Adventure', 'Comedy', 'Drama', 'Fantasy', 'Horror', 'Mystery', 'Thriller', 'Science Fiction'],
     },
     //add validation to pass at least three actornpm install s
     Actors: [
